@@ -35,3 +35,8 @@ def about():
         year=datetime.now().year,
         message='Your application description page.'
     )
+
+@app.route('/qwe')
+def qwe():
+    """Renders the about page."""
+    return "ok"
